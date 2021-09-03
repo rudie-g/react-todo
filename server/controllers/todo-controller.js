@@ -34,8 +34,12 @@ module.exports = {
     res.status(200).json(updateTodo);
   },
   async deleteTodo(req, res) {
-      await Todo.deleteOne(
+        const deletedTodo = await Todo.deleteOne(
           { name: req.body.name },
-      )
+      );
+
+      if (!deletedTodo) {
+          return res.status(400).json({ message: 'Unable to delete' })
+      }
   }
 };
