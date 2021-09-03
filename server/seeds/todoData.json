@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Vacuum",
+        "completed": false
+    },
+    {
+        "name": "Dust",
+        "completed": false
+    },
+    {
+        "name": "Do the dishes",
+        "completed": false
+    },
+    {
+        "name": "Clean the bathroom",
+        "completed": true
+    },
+    {
+        "name": "Do the laundry",
+        "completed": false
+    },
+    {
+        "name": "Javascript practice",
+        "completed": false
+    },
+    {
+        "name": "feed the cat",
+        "completed": true
+    },
+    {
+        "name": "Call mom",
+        "completed": true
+    },
+    {
+        "name": "Plant trees",
+        "completed": true
+    }
+]
